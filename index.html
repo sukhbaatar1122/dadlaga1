@@ -6,55 +6,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>dadlaga1</title>
     <style>
-        body{margin: 0;}
-        #div1 {
-            border: 1px solid red;
-            margin-right: 0px;
-            margin-left: 0px;
-            /*display: inline;
-            height: 50px;
-            width: 100px;
-            padding: 20px;
-            margin: 10px; */
-        }
-
-        #div2 {
-            border: 1px solid green;
-            /*display: inline;
-            height: 100px;
-            width: 100px;
-            padding: 20px;
-            margin: 10px; */
+        body{margin:0;}
+        .tolgoi{ border: 1px solid red;
             margin-right: 0px;
             margin-left: 0px;
         }
-        /* @media not screen and (max-width: 600px)  {
-            body {
-                background-color: lightblue;
-                color: red;
-            }
-        } */
-        @media (min-width:600px){
-            #div1{
-                margin: 40px;
-            }
-            #div2{
-                margin: 40px;
+        
+        .covid{border: 1px solid red;
+            border-radius:45px ;
+            padding: 20px;    
+        }
+
+        @media (min-width: 600px){ 
+            .tolgoi{
+                margin-right: 40px;
+                margin-left: 40px;
+            }  
+                          
+        }
+        @media(max-width: 900px){
+            .afasdf{
+                display:none;
             }
         }
 
-        asdfasdf
-        asdfad
+        @media(max-width: 650px){
+            .covid{
+                width:40%;
+                display: inline-block;
+            }
+        }
+        @media(min-width:1200px){
+            .covid{
+                display: inline-block;
+                width: 15%;
+            }
+        }   
+        @media(min-width: 600px) and (max-width:700px){
+            body{
+                background-color: blue;
+            }
+        }    
     </style>
 </head>
 
 <body>
-    <div id="div1">
-        div1
-    </div>
-    <div id="div2">
-        div2
-    </div>
+    
+    <header class="tolgoi">
+        <div >
+            gogo
+            <input class="afasdf" type="text"/>
+            зурхай цаг агаар валютын ханш
+        </div>
+        <div>
+            <div class="covid">шинээр бүртгэгдсэн хүний тоо</div>
+            <div class="covid">нийт бүртгэгдсэн хүний тоо</div>
+            <div class="covid">нийт нас барсан бүртгэгдсэн хүний тоо</div>
+            <div class="covid">эдгэрсэн бүртгэгдсэн хүний тоо</div>
+            <div class="bairlal">ЭМЯ өнөөдийн мэдээ11 <span class="xbutton">X</span></div>
+        </div>
+    </header>
+
+
+
+    <nav>
+        <a href="#">huudas1</a>
+        <a href="#">huudas2</a>
+        <a href="#">huudas3</a>
+    </nav>
+    <main>
+       
+    
+    </main>
+
+
+<footer>
+
+</footer>
+
+
+
 </body>
 
 </html>
